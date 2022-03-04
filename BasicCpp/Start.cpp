@@ -21,7 +21,7 @@ void Start::ChooseTask()
 		" 6 - Guessing Game \n" <<
 		" 7 - Arithmetic Progression \n" <<
 		" 8 - Reverse Collection \n" <<
-		"9 - Linear Search \n" <<
+		" 9 - Linear Search \n" <<
 		"10 - Palindrome \n" <<
 		"11 - nth Bit of a Number \n" <<
 		"12 - Swap Bitwise \n" <<
@@ -82,6 +82,10 @@ void Start::SwitchTasks()
 		break;
 
 	case 6:
+		guess.guessStart();
+		break;
+
+	case 7:
 		guess.guessStart();
 		break;
 
