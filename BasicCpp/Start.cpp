@@ -58,7 +58,9 @@ void Start::SwitchTasks()
 	Palindrome palindrome;
 	Swap numSwap;
 	Guess guess;
-	Reverse reverse; 
+	Reverse reverse;
+	LinearSearch lineSearch;
+	Occurence occ; 
 	
 
 
@@ -92,10 +94,17 @@ void Start::SwitchTasks()
 		reverse.revStart();
 		break;
 
+	/*case 9:
+		lineSearch.lineSearchStart();
+		break;*/
+
 	case 10:
 		palindrome.palindromeStart();
 		break;
 
+	/*case 15:
+		occ.occStart();
+		break;*/
 	
 		
 	default:

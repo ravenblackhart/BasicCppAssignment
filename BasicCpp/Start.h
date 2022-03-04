@@ -13,6 +13,8 @@ using namespace std;
 #include "Guess.h"
 #include "Reverse.h"
 #include "Palindrome.h"
+#include "LinearSearch.h"
+#include "Occurence.h"
 
 class Start
 {

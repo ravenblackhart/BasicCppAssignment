@@ -145,6 +145,8 @@
     <ClCompile Include="EvenOdd.cpp" />
     <ClCompile Include="Guess.cpp" />
     <ClCompile Include="LastDigit.cpp" />
+    <ClCompile Include="LinearSearch.cpp" />
+    <ClCompile Include="Occurence.cpp" />
     <ClCompile Include="Palindrome.cpp" />
     <ClCompile Include="Reverse.cpp" />
     <ClCompile Include="Start.cpp" />
@@ -156,6 +158,8 @@
     <ClInclude Include="EvenOdd.h" />
     <ClInclude Include="Guess.h" />
     <ClInclude Include="LastDigit.h" />
+    <ClInclude Include="LinearSearch.h" />
+    <ClInclude Include="Occurence.h" />
     <ClInclude Include="Palindrome.h" />
     <ClInclude Include="Reverse.h" />
     <ClInclude Include="Start.h" />
