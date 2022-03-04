@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <cstdlib>
+#include <ctime>
 #include <string>
 using namespace std;
 
@@ -8,6 +9,8 @@ using namespace std;
 #include "CtoF.h"
 #include "EvenOdd.h"
 #include "LastDigit.h"
+#include "Swap.h"
+#include "Guess.h"
 #include "Palindrome.h"
 
 class Start

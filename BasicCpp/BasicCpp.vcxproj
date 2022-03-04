@@ -143,17 +143,21 @@
     <ClCompile Include="BasicCpp.cpp" />
     <ClCompile Include="CtoF.cpp" />
     <ClCompile Include="EvenOdd.cpp" />
+    <ClCompile Include="Guess.cpp" />
     <ClCompile Include="LastDigit.cpp" />
     <ClCompile Include="Palindrome.cpp" />
     <ClCompile Include="Start.cpp" />
+    <ClCompile Include="Swap.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbsDiff.h" />
     <ClInclude Include="CtoF.h" />
     <ClInclude Include="EvenOdd.h" />
+    <ClInclude Include="Guess.h" />
     <ClInclude Include="LastDigit.h" />
     <ClInclude Include="Palindrome.h" />
     <ClInclude Include="Start.h" />
+    <ClInclude Include="Swap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
