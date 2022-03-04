@@ -11,6 +11,7 @@ using namespace std;
 #include "LastDigit.h"
 #include "Swap.h"
 #include "Guess.h"
+#include "Reverse.h"
 #include "Palindrome.h"
 
 class Start

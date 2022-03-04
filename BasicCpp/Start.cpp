@@ -38,6 +38,7 @@ void Start::ChooseTask()
 		"23 - Find Largest Number \n" <<
 		"24 - Swap with Templates \n" <<
 		"25 - Custom Vector Class \n" <<
+		
 
 		"\nEnter the number corresponding to your selection : ";
 
@@ -55,8 +56,10 @@ void Start::SwitchTasks()
 	EvenOdd evenodd;
 	LastDigit lastDigit;
 	Palindrome palindrome;
+	Swap numSwap;
 	Guess guess;
-	Swap numSwap; 
+	Reverse reverse; 
+	
 
 
 	switch(option)
@@ -85,14 +88,16 @@ void Start::SwitchTasks()
 		guess.guessStart();
 		break;
 
-	case 7:
-		guess.guessStart();
+	case 8:
+		reverse.revStart();
 		break;
 
 	case 10:
 		palindrome.palindromeStart();
 		break;
 
+	
+		
 	default:
 		cout << "I'm sorry, that task is not available due to reasons..." << endl;
 		ChooseTask();
