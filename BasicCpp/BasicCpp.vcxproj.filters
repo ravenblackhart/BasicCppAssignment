@@ -30,6 +30,12 @@
     <ClCompile Include="EvenOdd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LastDigit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Palindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Start.h">
@@ -42,6 +48,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EvenOdd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LastDigit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Palindrome.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

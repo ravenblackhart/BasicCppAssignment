@@ -52,7 +52,9 @@ void Start::SwitchTasks()
 
 	AbsDiff absDiff;
 	CtoF ctof;
-	EvenOdd evenodd; 
+	EvenOdd evenodd;
+	LastDigit lastDigit;
+	Palindrome palindrome; 
 
 
 	switch(option)
@@ -67,7 +69,15 @@ void Start::SwitchTasks()
 
 	case 3:
 		evenodd.evenoddStart();
-		break; 
+		break;
+
+	case 4:
+		lastDigit.printStart(); 
+		break;
+
+	case 11:
+		palindrome.palindromeStart();
+		break;
 
 	default:
 		cout << "I'm sorry, that task is not available due to reasons..." << endl;

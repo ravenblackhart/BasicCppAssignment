@@ -17,6 +17,9 @@ void EvenOdd::evenoddCompare(int a)
 	else  cout << a << " is an odd number.\n";
 
 
+	cout << "Would you like to try again? Y / N   ";
+	cin >> repeat;
+
 	Start start;
 
 	if (repeat == "Y" || repeat == "y") evenoddStart();

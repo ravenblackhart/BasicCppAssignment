@@ -7,6 +7,8 @@ using namespace std;
 #include "AbsDiff.h"
 #include "CtoF.h"
 #include "EvenOdd.h"
+#include "LastDigit.h"
+#include "Palindrome.h"
 
 class Start
 {
